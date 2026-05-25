@@ -78,6 +78,7 @@ img {
   color: #f0e8ff;                     /* blanco violáceo para contraste suave */
   margin: 0;
   line-height: 1.6;
+  max-width: 400 px;
 }
 
 a {
