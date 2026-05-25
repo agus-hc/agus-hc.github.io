@@ -56,7 +56,7 @@ img {
 }
 
 .div-principal {
-  width: 500px;                /* ancho fijo */
+  width: 600px;                /* ancho fijo */
   margin: 20px 0;           /* centrado con margen arriba y abajo */
   padding: 15px;               /* espacio interno */
   background-color: #662be6;   /* fondo violeta oscuro — tu color de marca */
