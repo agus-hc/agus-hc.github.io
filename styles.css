@@ -1,0 +1,101 @@
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-bold{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-semibold{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #662be6;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #a381ef;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  width: 700px;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+.div-principal {
+  width: 500px;                /* ancho fijo */
+  margin: 20px 0;           /* centrado con margen arriba y abajo */
+  padding: 15px;               /* espacio interno */
+  background-color: #662be6;   /* fondo violeta oscuro — tu color de marca */
+  border: 1px solid #a381ef;   /* borde violeta claro — tu color de marca */
+  border-radius: 10px;          /* esquinas levemente redondeadas */
+}
+
+.div-principal h1 {
+  font-family: "Roboto", sans-serif;  /* Roboto para el titular */
+  font-size: 24px;                    /* tamaño pedido */
+  font-weight: 700;
+  color: #ffffff;                     /* blanco para que contraste con el fondo violeta */
+  margin: 0 0 10px 0;
+}
+
+.div-principal p {
+  font-family: "Roboto", sans-serif;  /* Roboto para párrafos */
+  font-size: 14px;                    /* tamaño pedido */
+  font-weight: 400;                   /* normal */
+  color: #f0e8ff;                     /* blanco violáceo para contraste suave */
+  margin: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #662be6;           /* violeta oscuro — estado normal */
+  text-decoration: none;    /* sin subrayado por defecto */
+  font-style: italic;
+}
+
+a:visited {
+  color: #a381ef;           /* violeta claro — enlace ya visitado */
+}
+
+a:hover {
+  color: #4a1aad;           /* violeta más oscuro — al pasar el mouse */
+  text-decoration: underline; /* subrayado aparece en hover */
+  font-style: italic;
+}
+
+a:active {
+  color: #2d0d6e;           /* violeta muy oscuro — en el momento del click */
+}
