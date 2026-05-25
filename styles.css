@@ -56,11 +56,11 @@ img {
 }
 
 .div-principal {
-  width: 800px;                /* ancho fijo */
-  margin: 5px auto;           /* centrado con margen arriba y abajo */
-  padding: 5px;               /* espacio interno */
+  width: 650px;                /* ancho fijo */
+  margin: 20px auto;           /* centrado con margen arriba y abajo */
+  padding: 15px;               /* espacio interno */
   background-color: #662be6;   /* fondo violeta oscuro — tu color de marca */
-  border: 1px solid #a381ef;   /* borde violeta claro — tu color de marca */
+  border: 2px solid #a381ef;   /* borde violeta claro — tu color de marca */
   border-radius: 10px;          /* esquinas levemente redondeadas */
 }
 
